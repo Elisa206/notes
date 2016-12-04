@@ -1,0 +1,42 @@
+{
+  "name": "notes",
+  "version": "0.0.1",
+  "description": "App for creating and reviewing notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elisa206/notes.git"
+  },
+  "keywords": [
+    "Angular",
+    "2.0"
+  ],
+  "author": "Sebastian Betker, Elisa Zschorlich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elisa206/notes/issues"
+  },
+  "homepage": "https://github.com/Elisa206/notes#readme",
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.10",
+    "typings": "^2.0.0"
+  },
+  "dependencies": {
+    "@angular/compiler": "^2.2.4",
+    "@angular/core": "^2.2.4",
+    "@angular/http": "^2.2.4",
+    "@angular/platform-browser": "^2.2.4",
+    "@angular/platform-browser-dynamic": "^2.2.4",
+    "@angular/router": "^3.2.4",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-rc.4",
+    "systemjs": "^0.19.41",
+    "zone.js": "^0.7.2"
+  }
+}
