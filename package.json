@@ -27,23 +27,24 @@
   },
   "homepage": "https://github.com/Elisa206/notes#readme",
   "devDependencies": {
-    "concurrently": "^3.1.0",
+    "concurrently": "^3.3.0",
     "lite-server": "^2.2.2",
-    "typescript": "^2.0.10",
-    "typings": "^2.0.0"
+    "typescript": "^2.1.6",
+    "typings": "^2.1.0"
   },
   "dependencies": {
-    "@angular/common": "^2.4.1",
-    "@angular/compiler": "^2.2.4",
-    "@angular/core": "^2.2.4",
-    "@angular/http": "^2.2.4",
-    "@angular/platform-browser": "^2.2.4",
-    "@angular/platform-browser-dynamic": "^2.2.4",
-    "@angular/router": "^3.2.4",
+    "@angular/common": "^2.4.7",
+    "@angular/compiler": "^2.4.7",
+    "@angular/core": "^2.4.7",
+    "@angular/forms": "^2.4.7",
+    "@angular/http": "^2.4.7",
+    "@angular/platform-browser": "^2.4.7",
+    "@angular/platform-browser-dynamic": "^2.4.7",
+    "@angular/router": "^3.4.7",
     "core-js": "^2.4.1",
-    "reflect-metadata": "^0.1.8",
-    "rxjs": "^5.0.0-rc.4",
-    "systemjs": "^0.19.41",
-    "zone.js": "^0.7.2"
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.1.1",
+    "systemjs": "^0.20.7",
+    "zone.js": "^0.7.7"
   }
 }
