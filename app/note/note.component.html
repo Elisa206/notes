@@ -1,5 +1,17 @@
-<h2>{{note.title}}</h2>
-<div>
-  <label for="title">Titel: </label>
-  <input disabled="{{disabled}}" [(ngModel)]="note.title" id="title" placeholder="Notiztitel eingeben..."/>
+<div class="note-detail">
+  <h2>Note Detail</h2>
+  <div>
+    <label for="title">Titel: </label>
+    <input disabled="{{disabled}}"
+           [(ngModel)]="note.title"
+           id="title"
+           placeholder="Notiztitel ..."/>
+  </div>
+  <div>
+    <label>Notiztext:</label>
+    <textarea [(ngModel)]="note.text"
+              disabled={{disabled}}
+              placeholder="Notiztext ...">
+    </textarea>
+  </div>
 </div>

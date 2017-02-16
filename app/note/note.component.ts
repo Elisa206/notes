@@ -9,7 +9,9 @@ import {Note} from './note'
 })
 export class NoteComponent {
   note: Note = {
-    title: 'My first Note!'
+    id: 1,
+    title: 'My first Note!',
+    text: ''
   };
 
   @Input()

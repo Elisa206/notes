@@ -3,7 +3,7 @@ import {Note} from './note/note';
 
 @Component({
   selector: 'myApp',
-  template: '<h1>Hallo</h1><note [disabled]="disabled"> </note>'
+  template: '<note [disabled]="disabled"> </note>'
 })
 export class AppComponent {
 
